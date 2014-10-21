@@ -18,16 +18,16 @@ public class gravity : MonoBehaviour {
 					pressure = 0.1f;
 					minorSetback -= 1;
 				}else{
-					pressure = -0.05f;
+					pressure = -0.1f;
 					pointZero -= 1;
 				}
 			}else if(pressure != 0 & pointZero == 0){
-				pressure -= 0.01f;
+				pressure -= 0.05f;
 			}
 		}
 		if(Global.Force > 1){
 			pointZero = 20;
-			minorSetback = 10;
+			minorSetback = 5;
 		}
 		//if(this.transform.position.y < BgGoingDown.top + 2){
 			transform.Translate(0,pressure,0);

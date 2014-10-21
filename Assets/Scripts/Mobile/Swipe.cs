@@ -26,7 +26,6 @@ public class Swipe : MonoBehaviour {
 		if(Input.GetKey(KeyCode.A)){
 			turn = true;
 		}
-		Debug.Log(turn + "J = " + j);
 
 	}
 

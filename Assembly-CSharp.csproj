@@ -46,8 +46,9 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\CharacterAnimation.cs" />
      <Compile Include="Assets\Scripts\BgGoingDown.cs" />
+     <Compile Include="Assets\Scripts\Btn.cs" />
+     <Compile Include="Assets\Scripts\CharacterAnimation.cs" />
      <Compile Include="Assets\Scripts\Flight\ToMiddleScreen.cs" />
      <Compile Include="Assets\Scripts\ForceUp.cs" />
      <Compile Include="Assets\Scripts\Global.cs" />

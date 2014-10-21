@@ -12,7 +12,7 @@ public class ForceUp : MonoBehaviour {
 		if(Global.Force > 0){
 			gravity.pressure = 0;
 			if(transform.position.y < BgGoingDown.top + 1){
-				transform.Translate(0,1f,0);
+				transform.Translate(0,2f,0);
 			}
 			Global.Force -= 1;
 
