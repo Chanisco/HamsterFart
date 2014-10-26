@@ -20,7 +20,7 @@ public class PointInstansiate : MonoBehaviour {
 	
 		for(j = 0;j < 100;j++){
 			i = Random.Range(0,AllPointPaces);
-			GameObject pointFirst = Instantiate(pointObject[i],new Vector3(0,j * 8,0),Quaternion.identity) as GameObject;
+			GameObject pointFirst = Instantiate(pointObject[i],new Vector3(0,j * 5,0),Quaternion.identity) as GameObject;
 			pointFirst.gameObject.transform.parent = pointArr;
 			j++;
 		}

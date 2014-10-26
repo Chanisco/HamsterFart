@@ -11,7 +11,7 @@ public class BgGoingDown : MonoBehaviour {
 		if(Global.Force > 0){
 			if(Player.transform.position.y >= top ){
 				foreGround.transform.Translate(0,-0.05f,0);
-				points.transform.Translate(0,-0.5f,0);
+				points.transform.Translate(0,-1f,0);
 			}
 			if(Player.transform.position.y >= middle && Player.transform.position.y <= top  ){
 				foreGround.transform.Translate(0,-0.02f,0);

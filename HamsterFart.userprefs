@@ -1,23 +1,28 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/PointInstansiate.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/gravity.cs">
     <Files>
+      <File FileName="Assets/Scripts/ForceUp.cs" Line="1" Column="1" />
       <File FileName="Assets/Scripts/PointInstansiate.cs" Line="23" Column="74" />
-      <File FileName="../SimDays/Assets/Script/Social Interactions/Conversations.cs" Line="1" Column="1" />
       <File FileName="Assets/Scripts/OutOfScreen.cs" Line="1" Column="1" />
       <File FileName="Assets/Scripts/Flight/ToMiddleScreen.cs" Line="1" Column="1" />
       <File FileName="Assets/Scripts/Global.cs" Line="1" Column="1" />
       <File FileName="Assets/Scripts/Tags.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/ForceUp.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/Onhit.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/BgGoingDown.cs" Line="1" Column="1" />
       <File FileName="Assets/Scripts/gravity.cs" Line="1" Column="1" />
       <File FileName="Assets/Scripts/Saving/SaveCoins.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/Mobile/Swipe.cs" Line="33" Column="28" />
+      <File FileName="Assets/Scripts/Mobile/Swipe.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/MoveHamster.cs" Line="27" Column="47" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
-        <State expanded="True" selected="True" />
+        <State expanded="True">
+          <Node name="Assembly-CSharp" expanded="True">
+            <Node name="Scripts" expanded="True">
+              <Node name="Flight" expanded="True" />
+              <Node name="gravity.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
       </Pad>
       <Pad Id="ClassPad">
         <State expanded="True" selected="True" />

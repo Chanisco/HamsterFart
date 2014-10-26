@@ -10,8 +10,8 @@ public class Onhit : MonoBehaviour {
 			}
 		}else{
 			if(other.tag == Tags.Point){
-				if(Global.Force < 50){
-					Global.Force += 10;
+				if(Global.Force < 40){
+					Global.Force += 5;
 				}
 				Destroy(other.gameObject);
 			}
