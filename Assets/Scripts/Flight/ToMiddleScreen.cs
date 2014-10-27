@@ -2,10 +2,10 @@
 using System.Collections;
 
 public class ToMiddleScreen : MonoBehaviour {
-
-	void Update () {
+	private bool CountDownDone;
+	void Start(){
 		if(Global.ReadyToStart == false){
-			LiftOff();
+			Invoke("LiftOff",3);
 		}
 	}
 

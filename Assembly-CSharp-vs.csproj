@@ -46,23 +46,23 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Scripts\BgGoingDown.cs" />
-     <Compile Include="Assets\Scripts\Btn.cs" />
-     <Compile Include="Assets\Scripts\CharacterAnimation.cs" />
+     <Compile Include="Assets\Scripts\Flight\BgGoingDown.cs" />
+     <Compile Include="Assets\Scripts\Flight\CharacterAnimation.cs" />
+     <Compile Include="Assets\Scripts\Flight\ForceUp.cs" />
+     <Compile Include="Assets\Scripts\Flight\Manager.cs" />
+     <Compile Include="Assets\Scripts\Flight\MoveHamster.cs" />
+     <Compile Include="Assets\Scripts\Flight\Onhit.cs" />
+     <Compile Include="Assets\Scripts\Flight\OutOfScreen.cs" />
+     <Compile Include="Assets\Scripts\Flight\PointInstansiate.cs" />
      <Compile Include="Assets\Scripts\Flight\ToMiddleScreen.cs" />
-     <Compile Include="Assets\Scripts\ForceUp.cs" />
+     <Compile Include="Assets\Scripts\Flight\gravity.cs" />
      <Compile Include="Assets\Scripts\Global.cs" />
-     <Compile Include="Assets\Scripts\Manager.cs" />
+     <Compile Include="Assets\Scripts\Menu\Btn.cs" />
      <Compile Include="Assets\Scripts\Mobile\Exit.cs" />
      <Compile Include="Assets\Scripts\Mobile\Menu.cs" />
      <Compile Include="Assets\Scripts\Mobile\Swipe.cs" />
-     <Compile Include="Assets\Scripts\MoveHamster.cs" />
-     <Compile Include="Assets\Scripts\Onhit.cs" />
-     <Compile Include="Assets\Scripts\OutOfScreen.cs" />
-     <Compile Include="Assets\Scripts\PointInstansiate.cs" />
      <Compile Include="Assets\Scripts\Saving\SaveCoins.cs" />
      <Compile Include="Assets\Scripts\Tags.cs" />
-     <Compile Include="Assets\Scripts\gravity.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
