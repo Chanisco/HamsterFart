@@ -7,7 +7,6 @@ public class Onhit : MonoBehaviour {
 		if(Outfield == true){
 			if(other.tag == Tags.Point){
 				Destroy(other.gameObject);
-				Invoke("RestartGame",3);
 			}
 		}else{
 			if(other.tag == Tags.Point){
@@ -19,7 +18,5 @@ public class Onhit : MonoBehaviour {
 		}
 	}
 
-	void RestartGame(){
-		Application.LoadLevel(1);
-	}
+
 }

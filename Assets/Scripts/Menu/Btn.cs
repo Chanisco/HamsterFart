@@ -4,6 +4,7 @@ using System.Collections;
 public class Btn : MonoBehaviour {
 	private bool Chosen;
 	private Vector2 Pos;
+	public string ChosenLvl;
 
 	void Update(){
 		if(Input.touchCount > 0){
@@ -25,7 +26,8 @@ public class Btn : MonoBehaviour {
 
 		case TouchPhase.Ended:
 				if(Chosen == true){
-					Application.LoadLevel("LiftOff");
+				Global.Death = false;
+					Application.LoadLevel(ChosenLvl);
 				}
 			break;
 		}

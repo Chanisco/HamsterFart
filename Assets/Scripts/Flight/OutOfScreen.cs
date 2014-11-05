@@ -6,7 +6,9 @@ public class OutOfScreen : MonoBehaviour {
 
 	void Update () {
 		CheckSides();
-		FallinOutScreen();
+		if(Global.Death = false){
+			FallinOutScreen();
+		}
 
 	}
 
@@ -21,7 +23,9 @@ public class OutOfScreen : MonoBehaviour {
 	}
 	void FallinOutScreen(){
 		if(transform.position.y < -6){
-			Destroy(gameObject);
+			Global.Death = true;
 		}
 	}
+
+
 }

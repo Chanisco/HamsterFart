@@ -24,7 +24,7 @@ public class MoveHamster : MonoBehaviour {
 		if(Input.GetKey(KeyCode.Space)){
 			rigidbody2D.gravityScale = 0;
 		}
-		transform.Translate(Input.acceleration.x * 2,0,0);
+		transform.Translate(Input.acceleration.x,0,0);
 	}
 
 }
